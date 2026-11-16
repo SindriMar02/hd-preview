@@ -161,7 +161,7 @@
   function setMobile(open, viaKey) {
     mhdr.classList.toggle('open', open); burger.setAttribute('aria-expanded', open);
     burger.setAttribute('aria-label', open ? 'Loka valmynd' : 'Opna valmynd');
-    menuOpen = open; D.body.style.overflow = open ? 'hidden' : '';
+    menuOpen = open; D.body.style.overflow = open ? 'hidden' : ''; H.classList.toggle('menu-open', open);
     if (lenis) open ? lenis.stop() : lenis.start();
     if (open) {
       mhdr.classList.remove('closing');
