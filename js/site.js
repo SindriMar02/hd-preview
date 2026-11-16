@@ -186,14 +186,22 @@
     $$('[data-scr-load]').forEach(el => { fade(el, 500, 'easeOutExpo', 0, 0, .6); scramble(el, 500); });
   }
   let first = false; try { first = !sessionStorage.getItem('hd-seen'); sessionStorage.setItem('hd-seen', '1'); } catch (e) { first = true; }
+  let booted = false;
+  const pdone = () => window.__pbar && window.__pbar.done();
   const boot = async () => {
-    window.__pbar && window.__pbar.done();
-    if (loader) { if (first && !RM) { await fade(loader, 300, 'easeOutCubic', 0, 1, 0); } loader.remove(); }
+    if (booted) return; booted = true;
+    pdone();
+    if (loader && loader.isConnected) { if (!RM) await fade(loader, 300, 'easeOutCubic', 0, 1, 0); loader.remove(); }
     heroIn();
   };
-  if (!first && loader) { loader.remove(); window.__pbar && window.__pbar.done(); }
-  D.readyState === 'complete' || !first ? (first ? boot() : heroIn()) : addEventListener('load', boot, { once: true });
-  if (first && D.readyState !== 'complete') setTimeout(() => { if (D.getElementById('loader')) boot(); }, 2500);
+  if (first) {
+    D.readyState === 'complete' ? boot() : addEventListener('load', boot, { once: true });
+    setTimeout(boot, 2500); // never hold the page behind a slow image
+  } else {
+    if (loader) loader.remove();
+    heroIn();
+    D.readyState === 'complete' ? pdone() : addEventListener('load', pdone, { once: true });
+  }
 
   /* cards: fade 1000 in view; desktop hover opens descriptor (500 easeOutCubic) + scramble 750; phones open on first view */
   function cardFx(card) {
