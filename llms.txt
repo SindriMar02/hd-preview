@@ -1,0 +1,52 @@
+# HD ehf. (HD tæknilausnir)
+
+> HD er eitt stærsta iðn- og tæknifyrirtæki Íslands: stálsmíði, vélsmíði, tækniþjónusta, ástandsgreining og búnaðarsala fyrir sjávarútveg, fiskeldi, orkuiðnað, veitur og stóriðju. Yfir 200 starfsmenn á fimm starfsstöðvum. Framúrskarandi fyrirtæki Creditinfo tíunda árið í röð (2026). Rætur í Hamri ehf. (stofnað 1998).
+
+- Sími: +354 560 3600 · hd@hd.is · Búnaðarsala +354 560 3630 · sala@hd.is
+- Kt. 431298-2799 · Vesturvör 36, 200 Kópavogur
+- Vottanir: ISO 9001 (BSI), ISO 3834-2 suðuvottun (TÜV Nord); skaðlausar prófanir samkvæmt EN ISO 9712
+
+## Þjónusta
+- [Túrbínur & rafalar](https://hd.is/thjonusta/turbinur-rafalar/): Jarðgufutúrbínur frá árinu 2012
+- [Málmsuða](https://hd.is/thjonusta/malmsuda/): Vottuð samkvæmt ISO 3834
+- [Ástandsgreining](https://hd.is/thjonusta/astandsgreiningar/): Greinum frávik áður en bilar
+- [Dæluþjónusta](https://hd.is/thjonusta/daeluthjonusta/): Dæluþjónusta í 27 ár
+- [Plötusmíði](https://hd.is/thjonusta/plotusmidi/): Ein af grunnstoðum HD
+- [Renniverkstæði](https://hd.is/thjonusta/renniverkstaedi/): CNC rennismíði og fræsivinna
+- [Skaðlausar prófanir (NDT)](https://hd.is/thjonusta/skadlausar-profanir/): Samkvæmt EN ISO 9712
+- [Ryðfrí lagnasmíði](https://hd.is/thjonusta/rydfri-lagnasmidi/): Vottaðir suðumenn, TIG og MIG/MAG
+- [Sérsmíði vélarhluta](https://hd.is/thjonusta/sersmidi-velarhluta/): Þrívíddarskanni og sérsmíði
+- [Tjakkaverkstæði](https://hd.is/thjonusta/tjakkaverkstaedi/): Vökva- og lofttjakkar
+- [Tækniþjónusta](https://hd.is/thjonusta/taeknithjonusta/): CAD hönnun og 3D skönnun
+- [Þjónustusamningar](https://hd.is/thjonusta/thjonustusamningar/): Fyrirsjáanlegt viðhald og sívöktun
+
+## Starfssvið
+- [Virkjanir](https://hd.is/stefna/virkjanir/): Rótorviðgerðir og viðhald lykilbúnaðar
+- [Sjávarútvegur](https://hd.is/stefna/sjavarutvegur/): Áratuga reynsla fyrir íslenskan sjávarútveg
+- [Stóriðja](https://hd.is/stefna/storidja/): Lágmörkun niðritíma
+- [Veitur](https://hd.is/stefna/veitur/): Yfir 30 ára reynsla af djúpdælum
+- [Fiskeldi](https://hd.is/stefna/fiskeldi/): Dælur og lagnir fyrir landeldi
+- [Matvælaiðnaður](https://hd.is/stefna/matvaelaidnadur/): Ryðfrí smíði og hreinlæti
+
+## Vörur og vörumerki
+- [Dælur](https://hd.is/voruflokkar/daelur/): Gerðir: Borholudælur, brunndælur, hringrásardælur, lensidælur; Öxuldælur í notkun: Yfir 120 um landið; Framleiðendur: Calpeda, Dreno, SPP; Notkun: Fiskafurðir, sjór, jarðhitavökvi, drykkjarvatn
+- [Lokar og drif](https://hd.is/voruflokkar/lokar-og-drif/): Lokadrif: AUMA, í samstarfi við AUMA Scandinavia; Rennilokar: Askalon, VAG; Kúlulokar: KTM, Neotecha, K-Ball; Spjaldlokar: Keystone Composite
+- [Rafmótorar](https://hd.is/voruflokkar/rafmotorar/): Framleiðandi: TEC Electric Motors; Afl: 0,09 til 315 kW, 2–8 póla; Á lager: Frá 0 upp í 45 kW; Vottun: ISO 9001, CE og IEC; Orkustaðlar: IE2 og IE3
+- [Fiskimjölbúnaður](https://hd.is/voruflokkar/fiskimjolbunadur/): Samstarf: Haarslev; Spjaldadælur: HM25, HM35 og HM45; Afköst: 3 upp í 200 tonn á klukkustund; Flutningsfjarlægð: Allt að 200 metrar
+- [Eftirlitsbúnaður](https://hd.is/voruflokkar/eftirlitsbunadur/): Mælir: Titring, hita, hljóð, loftleka og rafmerki; Vöktun: Frá punktmælingum til IoT-sívöktunar í rauntíma; Þjónusta: Uppsetning, aflestur, greining og vöktun
+- [Brúkranar](https://hd.is/voruflokkar/brukranar/): Framleiðandi: Spaggiari, Ítalíu; Starfandi síðan: 1976; Kranar framleiddir: Yfir 1.200; Þjónusta: Uppsetning, þjónusta og viðhald
+- [Varahlutir](https://hd.is/voruflokkar/varahlutir/): Ásþétti: MSG, Vulcan Seals, EagleBurgmann; Sérsmíði: Þrívíddarskönnun, efnagreining og afturvirk hönnun
+- [Kristjánsbúr](https://hd.is/voruflokkar/kristjansbur/): Notkun: Löndun sjávarafla; Virkni: Lokast sjálfkrafa við hífingu; Þróað með: Samherja og íslenskum sjávarútvegsfyrirtækjum
+- [Mótorvarnir](https://hd.is/voruflokkar/motorvarnir/): Vörumerki: AEGIS; Verja: Legur gegn spanspennu úr rótor
+- [Súrefnisframleiðsla](https://hd.is/voruflokkar/surefnisframleidsla/): Tækni: Pressure swing adsorption (PSA); Þjónusta: Hönnun, ráðgjöf, uppsetning og viðhald
+- [Efnavörur](https://hd.is/voruflokkar/efnavorur/): Smurstöðvar: G-lube VIB frá Gruetzner
+
+## Starfsstöðvar
+- Kópavogur: Vesturvör 36, 200 Kópavogur, +354 560 3600, kopavogur@hd.is
+- Mosfellsbær: Völuteigur 31, 270 Mosfellsbær, +354 560 3600, mosfellsbaer@hd.is
+- Grundartangi: Klafastaðavegur 12, 301 Akranes, +354 560 3600, grundartangi@hd.is
+- Akureyri: Gránufélagsgata 47, 600 Akureyri, +354 560 3600, akureyri@hd.is
+- Hafnarfjörður: Víkurgata 11b, 222 Hafnarfjörður, +354 560 3600, hd@hd.is
+- Tæknisvið: Vesturvör 36, 200 Kópavogur, +354 560 3600, taeknideild@hd.is
+- Búnaðarsala: Vesturvör 36, 200 Kópavogur, +354 560 3630, sala@hd.is
+- Skrifstofa: Vesturvör 36, 200 Kópavogur, +354 560 3600, skrifstofa@hd.is
