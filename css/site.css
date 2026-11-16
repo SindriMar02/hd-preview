@@ -102,8 +102,9 @@ h1,h2,h3,h4,h5,h6,p{margin:0;font-weight:400}
 /* "more inside" cue (reference: Company (+)): + after each menu item, turns to − while its panel is open */
 .navlink{display:flex;align-items:center;gap:.45rem}
 .navlink .plus{width:.55rem;height:.55rem;position:relative;opacity:.55;transition:opacity .3s ease-out,transform .3s ease-out}
-.navlink:hover .plus,.navlink.on .plus,.navlink:focus-visible .plus{opacity:1}
-.navlink:hover .plus i,.navlink.on .plus i{background:var(--acc)}
+.navlink.on .plus,.navlink:focus-visible .plus{opacity:1}
+.navlink.on .plus i{background:var(--acc)}
+@media (hover:hover){.navlink:hover .plus{opacity:1}.navlink:hover .plus i{background:var(--acc)}}
 .navlink.on .plus i:first-child{transform:translate(-50%,-50%) rotate(0)}
 .navlink[aria-current="true"]:after{content:"";position:absolute;left:0;right:0;bottom:.2rem;height:1px;background:var(--acc)}
 .topnav .center.dim .navlink{opacity:.5}
