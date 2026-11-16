@@ -147,7 +147,11 @@
   if (mega) {
     triggers.forEach(t => {
       t.addEventListener('mouseenter', () => { if (matchMedia('(hover: hover)').matches) openPanel(t.dataset.domain, false); });
-      t.addEventListener('click', e => current === t.dataset.domain && e.detail !== 0 ? null : (current === t.dataset.domain ? closePanel() : openPanel(t.dataset.domain, e.detail === 0)));
+      t.addEventListener('click', e => {
+        const kb = e.detail === 0, hoverable = matchMedia('(hover: hover)').matches;
+        if (current !== t.dataset.domain) return openPanel(t.dataset.domain, kb);
+        if (kb || !hoverable) closePanel(kb); // touch: second tap closes; mouse: the hover already opened it, a click keeps it
+      });
     });
     wrap.addEventListener('mouseleave', () => { closeT = setTimeout(() => closePanel(false), 120); });
     wrap.addEventListener('mouseenter', () => clearTimeout(closeT));
@@ -210,9 +214,10 @@
     const rem = () => parseFloat(getComputedStyle(H).fontSize);
     const animIn = () => {
       if (!desc || open) return; open = true;
-      const target = isMob() ? desc.scrollHeight || 1.5 * rem() : 1.25 * rem();
-      desc.style.whiteSpace = isMob() ? 'normal' : 'nowrap';
-      own(desc, '_t', tween(0, 1, 500, 'easeOutCubic', 0, v => { desc.style.height = (isMob() ? 'auto' : v * target + 'px'); desc.style.marginTop = v * .5 * rem() + 'px'; desc.style.opacity = v; if (ico) ico.style.opacity = v; }));
+      const wrap = isMob() || !matchMedia('(hover: hover)').matches; // touch tablets wrap like phones
+      desc.style.whiteSpace = wrap ? 'normal' : 'nowrap';
+      const target = 1.25 * rem();
+      own(desc, '_t', tween(0, 1, 500, 'easeOutCubic', 0, v => { desc.style.height = (wrap ? 'auto' : v * target + 'px'); desc.style.marginTop = v * .5 * rem() + 'px'; desc.style.opacity = v; if (ico) ico.style.opacity = v; }));
       scramble(desc, 750);
     };
     const animOut = () => {

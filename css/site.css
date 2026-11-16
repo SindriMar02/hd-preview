@@ -126,6 +126,10 @@ h1,h2,h3,h4,h5,h6,p{margin:0;font-weight:400}
 .mega-panel .desc{padding-top:1.25rem;max-width:22rem;opacity:.6}
 .mega-panel .c1 .lbtn{margin-top:2rem;opacity:1}
 .mega-panel .thumb{width:100%;aspect-ratio:16/9;object-fit:cover}
+ @media (min-width:769px) and (max-width:1180px){
+  .mega-panel .c1{grid-column:1/5}.mega-panel .c2{grid-column:6/13}.mega-panel .c3{display:none}
+}
+.mega-panel .links a{overflow-wrap:anywhere}
 .navOverlay{position:fixed;inset:0;z-index:98;pointer-events:none;background:rgba(1,1,1,.1);backdrop-filter:blur(.5rem);-webkit-backdrop-filter:blur(.5rem);opacity:0;display:none}
 
 /* header (mobile) */
